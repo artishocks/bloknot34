@@ -1,29 +1,53 @@
-<? require_once('/include/header.inc'); ?>
-<div class="row" id="main">
-		
-	<? require_once('/include/menu.inc'); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Издательский дом КНАУБ</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/lightbox.min.js" type="text/javascript"></script>
+</head>
 
-	<div class="span9 content-block">
-		<h4>Издательский дом КНАУБ - рекламно-полиграфическая компания</h4>
-		<br>
-	<ul>
-		<li>печать визиток, листовок, буклетов и т.д.</li>
-		<li>печать открыток, пригласительных</li>
-		<li>производство банерной продукции, монтаж и размещение</li>
-		<li>услуги дизайнера, разработка логотипа и фирменного стиля</li>
-		<li>изготовление календарей любой сложности, блокнотов, каталогов</li>
-		<li>переплет, магниты, флажки, брелки</li>
-		<li>фольгирование (золото, серебро и т.д.) и ламинирование</li>
-		<li>интерьерная и авто пленка, фотообои (плоттерная резка)</li>
-		<li>интерьерная печать на фотобумаге, пленке</li>
-		<li>печать чертежей</li>
-		<li>печать производственных и служебных журналов, бланков, дипломных работ</li>
-		<li>оперативное изготовление</li>
-		<li>качество</li>
-		<li>бесплатная доставка</li>
-	</ul>
-	</div>
-		
+<body>
+<div class="container">
+
+<div class="row" id="header">
+	<div class="span12">header</div>
 </div>
 
-<? require_once('/include/footer.inc'); ?>
+<div class="row" id="main">
+
+	<div class="span3 sidebar-wrapper">
+		<ul class="nav nav-list">
+			<li><a href="/" class="btn nav-button btn-large">Главная</a></li>
+			<li><a href="?c=1" class="btn nav-button btn-large">Продукция</a></li>
+			<li><a href="?c=2" class="btn nav-button btn-large">Прайс</a></li>
+			<li><a href="?c=3" class="btn nav-button btn-large">Тех. условия</a></li>
+			<li><a href="?c=4" class="btn nav-button btn-large">Контакты</a></li>
+		</ul>
+	</div>
+
+	<div class="span9 content-block">
+	<?php
+		$path = $_SERVER['DOCUMENT_ROOT']."/include/";
+		$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
+		$c = $_GET['c'];
+		if (!isset($c))
+			$c = 0;
+		require_once($path.$contentArray[$c].".inc");
+	?>
+
+	</div>
+
+</div>
+
+<div class="row" id="footer">
+		<div class="span12">footer</div>
+	</div>
+</div>
+	
+</body>
+</html>
