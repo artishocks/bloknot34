@@ -34,9 +34,11 @@
 	<?php
 		$path = $_SERVER['DOCUMENT_ROOT']."/include/";
 		$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
-		$c = $_GET['c'];
-		if (!isset($c))
-			$c = 0;
+		
+        $c = 0;
+		if ( !empty( $_GET['c']) && in_array($c, $contentArray) )
+		    $c = $_GET['c'];
+     
 		require_once($path.$contentArray[$c].".inc");
 	?>
 
