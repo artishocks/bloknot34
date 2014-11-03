@@ -28,7 +28,7 @@
 
 	
 		<div class="container">
-			<ul>
+			<ul class="marker-checkmark">
 				<li>печать визиток, листовок, буклетов и т.д.</li>
 				<li>печать открыток, пригласительных</li>
 				<li>производство банерной продукции, монтаж и размещение</li>
@@ -50,7 +50,7 @@
 	<div class="stripe">
 		<div class="container">
 			<h4>Наши услуги</h4>
-			<ul>
+			<ul class="marker-checkmark">
 				<li>Дизайн</li>
 				<li>Полиграфия</li>
 				<li>Сувенирная продукция</li>

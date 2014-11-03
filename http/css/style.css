@@ -89,6 +89,45 @@ body {
 	padding: 10px 15px;
 }
 
-ul {
-	list-style-image: url(/img/list.gif);
+
+/* ### Fonts ### */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot?e8kk43');
+	src:url('/fonts/icomoon.eot?#iefixe8kk43') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?e8kk43') format('woff'),
+		url('/fonts/icomoon.ttf?e8kk43') format('truetype'),
+		url('/fonts/icomoon.svg?e8kk43#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul.marker-checkmark {
+    list-style-type: none;
+/*     list-style-position: outside; */
+/*     width: 100%; */
+}
+
+ul.marker-checkmark li {
+/*     vertical-align: top; */
+}
+
+ul.marker-checkmark li:before {
+    margin-right: 10px;        
+    font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+    font-size: 0.9em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+    content: "\e600";
+    color: #4997ae;
 }
