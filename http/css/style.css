@@ -1,0 +1,69 @@
+body {
+	background: #dbdbdb;  
+}
+
+#header {
+	height: 200px;
+	text-align: center;
+	/* padding-top: 50px; */
+	margin-left: 0;
+}
+
+#footer {
+	height: 50px;
+	background-color: #ddd;
+}
+
+.nav-button {
+	width: 150px;
+	height: 30px;
+	margin: 15px auto;
+}
+
+.content-block {
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.wrapper {
+	width: 100%;
+	background-image: url('/img/header_bg_gr.jpg'); 
+	background-repeat: repeat-x;
+}
+
+.cstfooter {
+	width: 100%;
+	text-align: center;
+}
+
+.cstfooter table {
+	width: 100%;
+	border-spacing: 15px;
+	border-collapse: separate;
+}
+
+.cstfooter td {
+	background-color: #4997ae;
+}
+
+.td-middle {
+	width: 80%;
+}
+
+.blue {
+	color: #4997ae;
+}
+
+.main-title {
+	font-family: 'Russo One', sans-serif;
+	/* font-size: 32pt; */
+	padding-top: 100px;
+}
+
+.big {
+	font-size: 32px;
+}
+
+.small {
+	font-size: 28px;
+}
