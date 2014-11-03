@@ -27,48 +27,17 @@
 	</div> 
 
 	
-		<div class="container">
-			<ul class="marker-checkmark">
-				<li>печать визиток, листовок, буклетов и т.д.</li>
-				<li>печать открыток, пригласительных</li>
-				<li>производство банерной продукции, монтаж и размещение</li>
-				<li>услуги дизайнера, разработка логотипа и фирменного стиля</li>
-				<li>изготовление календарей любой сложности, блокнотов, каталогов</li>
-				<li>переплет, магниты, флажки, брелки</li>
-				<li>фольгирование (золото, серебро и т.д.) и ламинирование</li>
-				<li>интерьерная и авто пленка, фотообои (плоттерная резка)</li>
-				<li>интерьерная печать на фотобумаге, пленке</li>
-				<li>печать чертежей</li>
-				<li>печать производственных и служебных журналов, бланков, дипломных работ</li>
-				<li>оперативное изготовление</li>
-				<li>качество</li>
-				<li>бесплатная доставка</li>
-			</ul>
-		</div>
-	
+	<?php
+			$path = $_SERVER['DOCUMENT_ROOT']."/include/";
+			$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
+			
+	        $c = 0;
+			if ( !empty( $_GET['c']) && in_array($c, $contentArray) )
+			    $c = $_GET['c'];
+	     
+			require_once($path.$contentArray[$c].".inc");
+	?>			
 
-	<div class="stripe">
-		<div class="container">
-			<h4>Наши услуги</h4>
-			<ul class="marker-checkmark">
-				<li>Дизайн</li>
-				<li>Полиграфия</li>
-				<li>Сувенирная продукция</li>
-				<li>Наружная реклама</li>
-				<li>Интерьерная печать</li>
-				<li>Оперативное изготовление</li>
-				<li>Качество</li>
-				<li>Бесплатная доставка</li>
-			</ul>
-			<br>
-			<a href="/img/offer/offer.jpg" data-lightbox="price"><img src="img/offer/offer-mini.jpg" alt="Коммерческое предложение">
-			</a>
-		</div>
-	</div>		
-
-	<div>
-		
-	</div>	
 
 	<div class="ftr">
 		<div class="container">
