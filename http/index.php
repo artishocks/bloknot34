@@ -15,78 +15,79 @@
 <body>
 <div class="wrapper">	
 	<div class="container">
-
-	<div class="row" id="header">
-		<div class="span12">
-			
-			<div class="main-title">
-				<span class="big">Издательский дом КНАУБ </span><br>
-				<span class="small">рекламно-полиграфическая компания</span>
+		<div class="row" id="header">
+			<div class="span12">
+				
+				<div class="main-title">
+					<span class="big">Издательский дом КНАУБ </span><br>
+					<span class="small">рекламно-полиграфическая компания</span>
+				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="row" id="main">
-
-		<div class="span3 sidebar-wrapper">
-			<ul class="nav nav-list">
-				<li><a href="/" class="btn nav-button btn-large">Главная</a></li>
-				<li><a href="?c=1" class="btn nav-button btn-large">Продукция</a></li>
-				<li><a href="?c=2" class="btn nav-button btn-large">Прайс</a></li>
-				<li><a href="?c=3" class="btn nav-button btn-large">Тех. условия</a></li>
-				<li><a href="?c=4" class="btn nav-button btn-large">Контакты</a></li>
-			</ul>
-		</div>
-
-		<div class="span9 content-block">
-		<?php
-			$path = $_SERVER['DOCUMENT_ROOT']."/include/";
-			$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
-			
-	        $c = 0;
-			if ( !empty( $_GET['c']) && in_array($c, $contentArray) )
-			    $c = $_GET['c'];
-	     
-			require_once($path.$contentArray[$c].".inc");
-		?>
-		</div>
-
-	</div>
-
-
-
-	<!-- <div class="row" id="footer">
-			<div class="span12">footer</div>
-		</div>-->
-
 	</div> 
 
+	
+		<div class="container">
+			<ul>
+				<li>печать визиток, листовок, буклетов и т.д.</li>
+				<li>печать открыток, пригласительных</li>
+				<li>производство банерной продукции, монтаж и размещение</li>
+				<li>услуги дизайнера, разработка логотипа и фирменного стиля</li>
+				<li>изготовление календарей любой сложности, блокнотов, каталогов</li>
+				<li>переплет, магниты, флажки, брелки</li>
+				<li>фольгирование (золото, серебро и т.д.) и ламинирование</li>
+				<li>интерьерная и авто пленка, фотообои (плоттерная резка)</li>
+				<li>интерьерная печать на фотобумаге, пленке</li>
+				<li>печать чертежей</li>
+				<li>печать производственных и служебных журналов, бланков, дипломных работ</li>
+				<li>оперативное изготовление</li>
+				<li>качество</li>
+				<li>бесплатная доставка</li>
+			</ul>
+		</div>
+	
 
-	<div class="cstfooter">
-		<span class="blue">Надеемся на взаимовыгодное сотрудничество</span>
-		<table>
-			<tr>
-				<td></td>
-				<td class="td-middle">Бесплатная доставка 8-909-379-65-68
-				<br>
-				e-mail: bloknot34@inbox.ru | сайт: блокнот.рф | vk.com/bloknot_34
-				</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td class="td-middle">Часы работы: с 8.00 до 17.00. Сб, Воскр - выходные</td>
-				<td></td>
-			</tr>
-		</table>
+	<div class="stripe">
+		<div class="container">
+			<h4>Наши услуги</h4>
+			<ul>
+				<li>Дизайн</li>
+				<li>Полиграфия</li>
+				<li>Сувенирная продукция</li>
+				<li>Наружная реклама</li>
+				<li>Интерьерная печать</li>
+				<li>Оперативное изготовление</li>
+				<li>Качество</li>
+				<li>Бесплатная доставка</li>
+			</ul>
+			<br>
+			<a href="/img/offer/offer.jpg" data-lightbox="price"><img src="img/offer/offer-mini.jpg" alt="Коммерческое предложение">
+			</a>
+		</div>
+	</div>		
 
-		<p>Адрес: 404121, г. Волжский, ул. Горького, 41р</p>
+	<div>
+		
+	</div>	
 
+	<div class="ftr">
+		<div class="container">
+			<p>Надеемся на взаимовыгодное сотрудничество</p>
+			
+			<p>Бесплатная доставка 8-909-379-65-68</p>
+			
+			<p>e-mail: bloknot34@inbox.ru | сайт: блокнот.рф | vk.com/bloknot_34</p>
+		</div>
+	</div>
+
+	<div class="ftr">
+		<div class="container">
+			<p>Часы работы: с 8.00 до 17.00. Сб, Воскр - выходные <br>
+			Адрес: 404121, г. Волжский, ул. Горького, 41р</p>
+		</div>
 	</div>
 
 </div>
-
-
 	
 </body>
 </html>
