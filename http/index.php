@@ -18,9 +18,9 @@
 		<div class="row" id="header">
 			<div class="span12">
 				
-				<div class="main-title">
-					<span class="big">Издательский дом КНАУБ </span><br>
-					<span class="small">рекламно-полиграфическая компания</span>
+				<div id="main-title">
+					<span id="big-title">Издательский дом &laquo;Кнауб&raquo;</span><br>
+					<span id="small-title">рекламно-полиграфическая компания</span>
 				</div>
 			</div>
 		</div>

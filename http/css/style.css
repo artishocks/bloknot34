@@ -30,42 +30,22 @@ body {
 	background-repeat: repeat-x;
 }
 
-.cstfooter {
-	width: 100%;
-	text-align: center;
-}
 
-.cstfooter table {
-	width: 100%;
-	border-spacing: 15px;
-	border-collapse: separate;
-	padding: 0px;
-}
-
-.cstfooter td {
-	background-color: #4997ae;
-}
-
-.td-middle {
-	width: 80%;
-}
-
-.blue {
-	color: #4997ae;
-}
-
-.main-title {
+#main-title {
 	font-family: 'Russo One', sans-serif;
-	/* font-size: 32pt; */
-	padding-top: 100px;
+	padding: 50px 100px;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: 50px auto 0;
+	width: 850px;
 }
 
-.big {
-	font-size: 32px;
+#big-title {
+	font-size: 42px;
 }
 
-.small {
-	font-size: 28px;
+#small-title {
+	font-size: 29px;
+	margin-left: -11px;
 }
 
 .stripe {
