@@ -94,11 +94,11 @@ body {
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('/fonts/icomoon.eot?e8kk43');
-	src:url('/fonts/icomoon.eot?#iefixe8kk43') format('embedded-opentype'),
-		url('/fonts/icomoon.woff?e8kk43') format('woff'),
-		url('/fonts/icomoon.ttf?e8kk43') format('truetype'),
-		url('/fonts/icomoon.svg?e8kk43#icomoon') format('svg');
+	src:url('/fonts/icomoon.eot?-abglgh');
+	src:url('/fonts/icomoon.eot?#iefix-abglgh') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?-abglgh') format('woff'),
+		url('/fonts/icomoon.ttf?-abglgh') format('truetype'),
+		url('/fonts/icomoon.svg?-abglgh#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -128,6 +128,15 @@ ul.marker-checkmark li:before {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     
-    content: "\e600";
+    content: "\e602";
     color: #4997ae;
 }
+
+.marker-barcode:before {
+	content: "\e603";
+}
+.marker-numbered-list:before {
+	content: "\e604";
+}
+
+
