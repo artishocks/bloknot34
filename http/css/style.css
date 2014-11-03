@@ -105,16 +105,18 @@ body {
 
 ul.marker-checkmark {
     list-style-type: none;
-/*     list-style-position: outside; */
+    padding: 0;
+list-style-position: outside;
 /*     width: 100%; */
 }
 
 ul.marker-checkmark li {
-/*     vertical-align: top; */
+	 
 }
 
 ul.marker-checkmark li:before {
-    margin-right: 10px;        
+    margin-left: -22px;  
+    margin-right: 10px;      
     font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -130,6 +132,7 @@ ul.marker-checkmark li:before {
     
     content: "\e602";
     color: #4997ae;
+
 }
 
 .marker-barcode:before {
