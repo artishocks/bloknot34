@@ -10,6 +10,7 @@
 	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/lightbox.min.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -26,7 +27,6 @@
 		</div>
 	</div> 
 
-	
 	<?php
 			$path = $_SERVER['DOCUMENT_ROOT']."/include/";
 			$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
@@ -38,21 +38,32 @@
 			require_once($path.$contentArray[$c].".inc");
 	?>			
 
+	<div class="container centered">
+		Надеемся на взаимовыгодное сотрудничество
+	</div>
 
-	<div class="ftr">
+	<div id="narrow" class="ftr">
 		<div class="container">
-			<p>Надеемся на взаимовыгодное сотрудничество</p>
 			
-			<p>Бесплатная доставка 8-909-379-65-68</p>
-			
-			<p>e-mail: bloknot34@inbox.ru | сайт: блокнот.рф | vk.com/bloknot_34</p>
 		</div>
 	</div>
 
 	<div class="ftr">
 		<div class="container">
-			<p>Часы работы: с 8.00 до 17.00. Сб, Воскр - выходные <br>
-			Адрес: 404121, г. Волжский, ул. Горького, 41р</p>
+					
+			<div class="phone">
+				8-909-379-65-68
+			</div>
+
+			<p>e-mail: <a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a> | <a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a></p>
+		</div>
+	</div>
+	<div class="container">Часы работы: с 8:00 до 17:00. Сб, Вc - выходные</div>
+	<div class="ftr">
+		<div class="container">
+			<div class="col-xs-12">
+				<p class="text-center">Адрес: 404121, г. Волжский, ул. Горького, 41р</p>
+			</div>
 		</div>
 	</div>
 

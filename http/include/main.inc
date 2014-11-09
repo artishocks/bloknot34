@@ -1,4 +1,5 @@
 <div class="container">
+
 			<div class="row">
 				<div class="col-md-6">
 					<h4>Предлагаем вам</h4>
@@ -38,21 +39,22 @@
 			</div>    
 </div>
 
+
 <div class="stripe">
-		<div class="container">
-            <div class="row">
-                <div class="col-md-12 vtop">
-                    <table id="main-links">                        
-                        <col>
-                        <col width="200">
-                        <tr>
-                            <td><span class="marker-barcode"></span>&nbsp;&nbsp;</td>
-                            <td><a href="?c=2"><button type="button" class="btn btn-primary btn-lg">Прайс-лист</button></a></td>
-                            <td class="vbot">&nbsp;&nbsp;&nbsp;<span class="marker-numbered-list"></span>&nbsp;&nbsp;</td>
-                            <td class="vbot"><a href="?c=3"><button type="button" class="btn btn-default">Технические условия</button></a></td>
-                        </tr>
-                    </table>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 vtop">
+                <table id="main-links">                        
+                    <col>
+                    <col width="200">
+                    <tr>
+                        <td><span class="marker-barcode"></span>&nbsp;&nbsp;</td>
+                        <td><a href="?c=2"><button type="button" class="btn btn-primary btn-lg">Прайс-лист</button></a></td>
+                        <td class="vbot">&nbsp;&nbsp;&nbsp;<span class="marker-numbered-list"></span>&nbsp;&nbsp;</td>
+                        <td class="vbot"><a href="?c=3"><button type="button" class="btn btn-default">Технические условия</button></a></td>
+                    </tr>
+                </table>            
             </div>
 		</div>
 	</div>
+</div>
