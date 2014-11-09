@@ -49,24 +49,20 @@
 	</div>
 
 	<div class="ftr">
-		<div class="container">
-					
-			<div class="phone">
-				8-909-379-65-68
-			</div>
-
+		<div class="container">					
+			<div class="phone">8 909-379-65-68</div>
 			<p>e-mail: <a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a> | <a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a></p>
 		</div>
 	</div>
-	<div class="container">Часы работы: с 8:00 до 17:00. Сб, Вc - выходные</div>
+	<div class="container">
+        <br />
+        <p class="text-center">Часы работы: с&nbsp;8:00 до&nbsp;17:00. Сб,&nbsp;Вc&nbsp;&mdash; выходные</p>
+    </div>
 	<div class="ftr">
-		<div class="container">
-			<div class="col-xs-12">
-				<p class="text-center">Адрес: 404121, г. Волжский, ул. Горького, 41р</p>
-			</div>
+		<div class="container">			
+				<p class="text-center">Адрес: <a href="/?c=4">404121, г.&nbsp;Волжский, ул.&nbsp;Горького, 41&thinsp;р</a></p>			
 		</div>
 	</div>
-
 </div>
 	
 </body>

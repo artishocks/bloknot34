@@ -75,10 +75,18 @@ body {
 }
 
 .ftr .container {
-	border-left: 3px solid #dbdbdb;
-	border-right: 3px solid #dbdbdb;
+	border-left: 10px solid #dbdbdb;
+	border-right: 10px solid #dbdbdb;
 	text-align: center;
 	padding: 10px 15px;
+}
+
+.ftr p {
+    color: #fff;
+}
+
+.ftr a {    
+    color: yellow;    
 }
 
 
@@ -112,7 +120,7 @@ body {
 
 ul.marker-checkmark {
     list-style-type: none;
-    font-family: 'Arial';    
+    font-family: 'Arial';
     list-style-position: outside;
     padding: 0;
 }
@@ -154,7 +162,24 @@ p.bg-success {
     border-radius: 5px;
 }
 
-a, a:hover {
+.centered {
+	margin-top: 30px;
+	font-size: 14pt;
+	color: #4997ae;
+	text-align: center;
+}
+
+.phone {
+	color: #f8e7bc;
+	font-size: 26pt;
+	font-weight: bold;
+}
+
+#narrow {
+	height: 5px;
+}
+
+a:hover {
 	color: #333;
 }
 
