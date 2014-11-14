@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-	height: 280px;
+	height: 220px;
 	text-align: center;
 	margin-left: 0;
 }
@@ -13,10 +13,31 @@ body {
 	background-color: #ddd;
 }
 
+#main-menu {
+	margin: 10px auto 5px auto;
+}
+
+ul.nav {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+ul.nav.nav-pills li {
+    
+}
+
+ul.nav.nav-pills li a {
+     margin: 0 auto;   
+}
+
 .nav-button {
 	width: 150px;
 	height: 30px;
 	margin: 15px auto;
+}
+
+nav {
+    margin-bottom: 50px;
 }
 
 .content-block {
@@ -40,6 +61,12 @@ body {
 
 .vbot {
     vertical-align: bottom !important;
+}
+
+.cntr {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
@@ -204,6 +231,3 @@ a:hover {
 	font-size: 1.2em;
 }
 
-#main-menu {
-	margin: 30px auto;
-}

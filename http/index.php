@@ -1,3 +1,16 @@
+<?
+    $contentArray = array(
+        'main' => 'Главная',
+        'prod' => 'Наши услуги',
+        'techreq' => 'Технические условия',
+        'price' => 'Прайс-лист',
+        'contacts' => 'Контакты'
+    );
+    $c = 'main';
+    if ( !empty($_GET['c']) && in_array($_GET['c'], array_keys($contentArray)) )
+        $c = $_GET['c'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,36 +29,36 @@
 <body>
 <div class="wrapper">	
 	<div class="container">
-		<div class="row" id="header">
-			<div class="span12">
-				
+		<div class="row">
+			<div class="span12" id="header">				
 				<div id="main-title">
 					<span id="big-title">Издательский дом &laquo;Кнауб&raquo;</span><br>
 					<span id="small-title">рекламно-полиграфическая компания</span>
 				</div>
-
-				<div id="main-menu">
-					<ul class="nav nav-pills">
-					  <li class="active"><a href="?c=0">Главная</a></li>
-					  <li><a href="?c=1">Наши услуги</a></li>
-					  <li><a href="?c=2">Технические условия</a></li>
-					  <li><a href="?c=3">Прайс</a></li>
-					  <li><a href="?c=4">Контакты</a></li>
-					</ul>
-				</div>
 			</div>
-		</div>
-	</div> 
+            <div class="cntr">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container text-center">
+                        <div id="main-menu">
+                            <ul class="nav nav-pills">                                
+                                <?
+                                    foreach ( $contentArray as $key => $val ) {
+                                        $isActive = ($key == $c) ? ' class="active"' : '';
+                                        echo '<li' . $isActive . '><a href="?c=' . $key . '">' . $val . '</a></li>';
+                                    }
+                                ?>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+		</div>        
+	</div>
 
-	<?php
-			$path = $_SERVER['DOCUMENT_ROOT']."/include/";
-			$contentArray = array('main', 'prod', 'techreq', 'price', 'contacts');
-			
-	        $c = 0;
-			if ( !empty( $_GET['c']) && in_array($c, $contentArray) )
-			    $c = $_GET['c'];
-	     
-			require_once($path.$contentArray[$c].".inc");
+	<?
+        $path = $_SERVER['DOCUMENT_ROOT'] . "/include/";			
+
+        require_once($path . $c . ".inc");
 	?>			
 
 	<div class="container centered">
