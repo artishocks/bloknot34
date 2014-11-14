@@ -30,6 +30,18 @@ body {
 	background-repeat: repeat-x;
 }
 
+.vtop {
+    vertical-align: top !important;
+}
+
+.vmid {
+    vertical-align: middle !important;
+}
+
+.vbot {
+    vertical-align: bottom !important;
+}
+
 
 #main-title {
 	font-family: 'Russo One', sans-serif;
@@ -63,10 +75,18 @@ body {
 }
 
 .ftr .container {
-	border-left: 3px solid #dbdbdb;
-	border-right: 3px solid #dbdbdb;
+	border-left: 10px solid #dbdbdb;
+	border-right: 10px solid #dbdbdb;
 	text-align: center;
 	padding: 10px 15px;
+}
+
+.ftr p {
+    color: #fff;
+}
+
+.ftr a {    
+    color: yellow;    
 }
 
 
@@ -83,20 +103,7 @@ body {
 	font-style: normal;
 }
 
-ul.marker-checkmark {
-    list-style-type: none;
-    padding: 0;
-list-style-position: outside;
-/*     width: 100%; */
-}
-
-ul.marker-checkmark li {
-	 
-}
-
-ul.marker-checkmark li:before {
-    margin-left: -22px;  
-    margin-right: 10px;      
+[class^="marker-"] {
     font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -109,20 +116,70 @@ ul.marker-checkmark li:before {
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    
+}
+
+ul.marker-checkmark {
+    list-style-type: none;
+    font-family: 'Arial';
+    list-style-position: outside;
+    padding: 0;
+}
+
+ul.marker-checkmark li {
+	font-size: 1.3em;
+    padding: 5px 0;
+}
+
+ul.marker-checkmark li:before {
+    font-family: 'icomoon';
+    margin-left: -32px;  
+    margin-right: 16px;
     content: "\e602";
     color: #4997ae;
-
 }
 
 .marker-barcode:before {
 	content: "\e603";
-}
-.marker-numbered-list:before {
-	content: "\e604";
+    font-size: 3em;
 }
 
-a, a:hover {
+.marker-numbered-list:before {
+	content: "\e604";
+    font-size: 1.5em;
+}
+
+#main-links {
+    
+}
+
+#main-links td {
+    vertical-align: middle;
+}
+
+p.bg-success {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.centered {
+	margin-top: 30px;
+	font-size: 14pt;
+	color: #4997ae;
+	text-align: center;
+}
+
+.phone {
+	color: #f8e7bc;
+	font-size: 26pt;
+	font-weight: bold;
+}
+
+#narrow {
+	height: 5px;
+}
+
+a:hover {
 	color: #333;
 }
 

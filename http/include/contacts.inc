@@ -1,12 +1,17 @@
 <div class="container">
-	<h4>Издательский дом КНАУБ - рекламно-полиграфическая компания</h4>
+	<h4 class="h4">Издательский дом &laquo;Кнауб&raquo;<br /><small>рекламно-полиграфическая компания</small></h4>
 	<br>
-	<p>Адрес: 404121, г. Волжский, ул. Горького, 41 р <br>
-	Часы работы: с 8:00 до 17:00. Сб, Вс - выходные <br>
-	Телефон: 8-909-379-65-68 <br>
-	e-mail: <a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a>
-	<br>
-	Адрес группы ВКонтакте: <a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a>
+	<p>
+        <dl class="dl-horizontal">                        
+            <dt>Адрес:</dt>            
+            <dd>404121, г.&nbsp;Волжский, ул.&nbsp;Горького, 41&thinsp;р</dd>            
+            <dt>Телефон:</dt>
+            <dd>8 909-379-65-68</dd>                        
+            <dt>E-mail:</dt>            
+            <dd><a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a></dd>
+            <dt>ВКонтакте:</dt>
+            <dd><a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a></dd>
+        </dl>         
 	</p>
 
 	<div id="map">

@@ -59,23 +59,12 @@
 	</div>
 
 	<div class="ftr">
-		<div class="container">
-					
-			<div class="phone">
-				8-909-379-65-68
-			</div>
-
+		<div class="container">					
+			<div class="phone">8 909-379-65-68</div>
 			<p>e-mail: <a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a> | <a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a></p>
-			<p>Часы работы: с 8:00 до 17:00. Сб, Вc - выходные</p>
+			<p>Часы работы: с&nbsp;8:00 до&nbsp;17:00. Сб,&nbsp;Вc&nbsp;&mdash; выходные</p>
 		</div>
 	</div>
-	
-	<div class="ftr">
-		<div class="container">
-				
-		</div>
-	</div>
-
 </div>
 	
 </body>
