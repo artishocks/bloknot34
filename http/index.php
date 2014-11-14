@@ -23,13 +23,23 @@
 					<span id="big-title">Издательский дом &laquo;Кнауб&raquo;</span><br>
 					<span id="small-title">рекламно-полиграфическая компания</span>
 				</div>
+
+				<div id="main-menu">
+					<ul class="nav nav-pills">
+					  <li class="active"><a href="?c=0">Главная</a></li>
+					  <li><a href="?c=1">Наши услуги</a></li>
+					  <li><a href="?c=2">Технические условия</a></li>
+					  <li><a href="?c=3">Прайс</a></li>
+					  <li><a href="?c=4">Контакты</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div> 
 
 	<?php
 			$path = $_SERVER['DOCUMENT_ROOT']."/include/";
-			$contentArray = array('main', 'prod', 'price', 'techreq', 'contacts');
+			$contentArray = array('main', 'prod', 'techreq', 'price', 'contacts');
 			
 	        $c = 0;
 			if ( !empty( $_GET['c']) && in_array($c, $contentArray) )
@@ -52,15 +62,7 @@
 		<div class="container">					
 			<div class="phone">8 909-379-65-68</div>
 			<p>e-mail: <a href="mailto:bloknot34@inbox.ru">bloknot34@inbox.ru</a> | <a href="http://vk.com/bloknot_34">vk.com/bloknot_34</a></p>
-		</div>
-	</div>
-	<div class="container">
-        <br />
-        <p class="text-center">Часы работы: с&nbsp;8:00 до&nbsp;17:00. Сб,&nbsp;Вc&nbsp;&mdash; выходные</p>
-    </div>
-	<div class="ftr">
-		<div class="container">			
-				<p class="text-center">Адрес: <a href="/?c=4">404121, г.&nbsp;Волжский, ул.&nbsp;Горького, 41&thinsp;р</a></p>			
+			<p>Часы работы: с&nbsp;8:00 до&nbsp;17:00. Сб,&nbsp;Вc&nbsp;&mdash; выходные</p>
 		</div>
 	</div>
 </div>
