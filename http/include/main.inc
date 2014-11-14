@@ -34,7 +34,7 @@
 			
 		</div>
 		<div class="col-md-3">
-			<a href="/img/digital.jpg" data-lightbox="photo"><img src="img/digital-mini.jpg" alt="Типографское оборудование">
+			<img src="img/digital.png" alt="Типографское оборудование">
 			</a>
 
 		</div>
