@@ -61,10 +61,6 @@
         require_once($path . $c . ".inc");
 	?>			
 
-	<div class="container centered">
-		Надеемся на взаимовыгодное сотрудничество
-	</div>
-
 	<div id="narrow" class="ftr">
 		<div class="container">
 			

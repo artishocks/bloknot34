@@ -1,29 +1,38 @@
 <div class="container">
 		<div class="row">
-		<div class="col-md-6">			
-			<ul class="marker-checkmark">
-				
-				<li><span class="bigger">Производство банерной продукции, монтаж и&nbsp;размещение</span></li>
-				<li><span class="bigger">Интерьерная и&nbsp;авто пленка, фотообои (плоттерная резка)</span></li>
-				<li><span class="bigger">Интерьерная печать на&nbsp;фотобумаге, пленке</span></li>
-				
-				<li>Печать визиток, листовок, буклетов и&nbsp;т.&nbsp;д.</li>
-				<li>Печать открыток, пригласительных</li>
-				<li>Услуги дизайнера, разработка логотипа и&nbsp;фирменного стиля</li>	
-				<li>Изготовление календарей любой сложности, блокнотов, каталогов</li>
-				<li>Переплет, магниты, флажки, брелки</li>
-				<li>Фольгирование (золото, серебро и&nbsp;т.&nbsp;д.) и&nbsp;ламинирование</li>
-				<li>Печать производственных и&nbsp;служебных журналов, бланков, дипломных работ</li>
-			 	<li>Печать чертежей</li>
-			</ul>	
-
-		</div>
-	
-		<div class="col-md-6">
-			<img src="img/digital.png" alt="Типографское оборудование" />
-            <br /><br />
-            <div class="alert alert-success">Акция: услуги дизайнера, разработка логотипа и&nbsp;фирменного стиля&nbsp;&mdash; бесплатно.</div>
-            <div class="alert alert-info">Мы также осуществим <strong>бесплатную доставку</strong> заказанной вами полиграфии!</div>
-		</div>
-	</div>
+            <div class="col-md-6">		
+                <ul class="marker-checkmark">
+                    <li><span class="bigger">Производство банерной продукции, монтаж и&nbsp;размещение</span></li>
+                    <li><span class="bigger">Интерьерная и&nbsp;авто пленка, фотообои (плоттерная резка)</span></li>
+                    <li><span class="bigger">Интерьерная печать на&nbsp;фотобумаге, пленке</span></li>
+                    <li>Печать визиток, листовок, буклетов и&nbsp;т.&nbsp;д.</li>
+                    <li>Печать открыток, пригласительных</li>
+                    <li>Услуги дизайнера, разработка логотипа и&nbsp;фирменного стиля</li>	
+                    <li>Изготовление календарей любой сложности, блокнотов, каталогов</li>
+                    <li>Переплет, магниты, флажки, брелки</li>
+                    <li>Фольгирование (золото, серебро и&nbsp;т.&nbsp;д.) и&nbsp;ламинирование</li>
+                    <li>Печать производственных и&nbsp;служебных журналов, бланков, дипломных работ</li>
+                    <li>Печать чертежей</li>
+                </ul>
+            </div>	
+            <div class="col-md-6">
+                <img src="/img/digital.png" alt="Типографское оборудование" id="equipment" />
+            </div>
+        </div>
 </div>
+
+<div class="stripe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="alert alert-success">Акция: услуги дизайнера, разработка логотипа и&nbsp;фирменного стиля&nbsp;&mdash; бесплатно.</div>  
+                    </div>
+                    <div class="col-md-6">
+                        <div class="alert alert-info">Мы также осуществим <strong>бесплатную доставку</strong> заказанной вами полиграфии!</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="centered">Надеемся на взаимовыгодное сотрудничество</div>
+                </div>
+            </div>
+        </div>

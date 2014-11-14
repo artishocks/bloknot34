@@ -1,6 +1,4 @@
-<div class="container">
-	<h4 class="h4">Издательский дом &laquo;Кнауб&raquo;<br /><small>рекламно-полиграфическая компания</small></h4>
-	<br>
+<div class="container">	
 	<p>
         <dl class="dl-horizontal">                        
             <dt>Адрес:</dt>            
