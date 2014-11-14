@@ -143,3 +143,10 @@ a, a:hover {
 	height: 5px;
 }
 
+.bigger {
+	font-size: 1.2em;
+}
+
+#main-menu {
+	margin: 30px auto;
+}
