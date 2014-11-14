@@ -22,14 +22,6 @@ ul.nav {
     display: inline-block;
 }
 
-ul.nav.nav-pills li {
-    
-}
-
-ul.nav.nav-pills li a {
-     margin: 0 auto;   
-}
-
 .nav-button {
 	width: 150px;
 	height: 30px;
@@ -38,6 +30,10 @@ ul.nav.nav-pills li a {
 
 nav {
     margin-bottom: 50px;
+}
+
+nav a {
+    font-size: 18px;
 }
 
 .content-block {
@@ -149,7 +145,7 @@ ul.marker-checkmark {
     list-style-type: none;
     font-family: 'Arial';
     list-style-position: outside;
-    padding: 0;
+    padding: 0 0 0 20px;
 }
 
 ul.marker-checkmark li {
@@ -229,5 +225,13 @@ a:hover {
 
 .bigger {
 	font-size: 1.2em;
+}
+
+.alert-success {
+    font-size: 18px;
+}
+
+.alert-info {
+    font-size: 16px;
 }
 
