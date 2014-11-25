@@ -1,5 +1,5 @@
 <div class="container">
-    <h4>Прайслист</h4>
+
     <a href="img/price/price1.jpg" data-lightbox="price"><img src="img/price/price1-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price2.jpg" data-lightbox="price"><img src="img/price/price2-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price3.jpg" data-lightbox="price"><img src="img/price/price3-mini.jpg" alt="Прайслист"></a>

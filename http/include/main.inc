@@ -1,7 +1,7 @@
 <div class="container">
 		<div class="row">
             <div class="col-md-6">		
-                <ul class="marker-checkmark">
+                <ul class="marker-checkmark" id="offers">
                     <li>Дизайн</li>
                     <li>Полиграфия</li>
                     <li>Сувенирная продукция</li>
@@ -22,13 +22,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
+                        <? /*
                         <div class="alert alert-success">Акция: услуги дизайнера, разработка логотипа и&nbsp;фирменного стиля&nbsp;&mdash; бесплатно.</div>  
+                        */ ?>
+                        <img src="/img/banner.jpg" alt="Акция" />
                     </div>
                     <div class="col-md-6">
-                        <div class="alert alert-info">Мы также осуществим <strong>бесплатную доставку</strong> заказанной вами полиграфии!</div>
+                        <div id="ad-delivery">Мы также осуществим <strong>бесплатную доставку</strong> заказанной вами полиграфии!</div>
                     </div>
                 </div>
                 <div class="row">
+                    <br /><br />
                     <div class="centered">Надеемся на взаимовыгодное сотрудничество</div>
                 </div>
             </div>
