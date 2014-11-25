@@ -32,8 +32,7 @@
 		<div class="row">
 			<div class="span12" id="header">				
 				<div id="main-title">
-					<span id="big-title">Издательский дом &laquo;Кнауб&raquo;</span><br>
-					<span id="small-title">рекламно-полиграфическая компания</span>
+					
 				</div>
 			</div>
             <div class="cntr">

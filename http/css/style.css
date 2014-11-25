@@ -70,8 +70,12 @@ nav a {
 	font-family: 'Russo One', sans-serif;
 	padding: 50px 100px;
 	background-color: rgba(255, 255, 255, 0.4);
+	background-image: url('/img/main-title.png');
+	background-repeat: no-repeat;
+	background-position: center; 
 	margin: 50px auto 0;
 	width: 850px;
+	height: 150px;
 }
 
 #big-title {
