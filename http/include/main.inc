@@ -9,7 +9,6 @@
                     <li>Интерьерная печать</li>
                     <li>Оперативное изготовление</li>
                     <li>Качество</li>
-                    <li>Бесплатная доставка</li>
                 </ul>
             </div>	
             <div class="col-md-6">
@@ -28,7 +27,10 @@
                         <img src="/img/banner.jpg" alt="Акция" />
                     </div>
                     <div class="col-md-6">
+                        <? /*
                         <div id="ad-delivery">Мы также осуществим <strong>бесплатную доставку</strong> заказанной вами полиграфии!</div>
+                        */ ?>
+                        <img src="/img/banner2.jpg" alt="Доставка" />
                     </div>
                 </div>
                 <div class="row">
