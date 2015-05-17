@@ -1,3 +1,7 @@
+.f12 {
+    font-size: 12px;
+}
+
 body {
 	background: #dbdbdb;  
 }
@@ -235,5 +239,42 @@ a:hover {
 
 #offers {
     font-size: 22px;
+}
+
+#lightboxes {
+    margin-bottom: 25px;
+}
+
+#lightboxes a {
+    display: block;
+    margin-bottom: 25px;
+}
+
+#marquee-basement {
+    background: #eaeaea;
+    border-radius: 5px;
+    padding: 10px 15px 6px 15px;
+    margin-bottom: 20px;
+}
+
+marquee {
+    font-family: 'Russo One', sans-serif;
+    font-size: 28px;
+    background: #000;
+    color: #ff5;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.rightside {
+    background: #fff;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+#diodes h6 {
+    margin-bottom: 20px;
 }
 
