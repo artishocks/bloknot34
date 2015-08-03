@@ -15,7 +15,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Издательский дом КНАУБ</title>
+	<title>Рекламно-полиграфическая компания &laquo;Блокнот34&raquo;</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
@@ -32,7 +32,8 @@
 		<div class="row">
 			<div class="span12" id="header">				
 				<div id="main-title">
-					
+					<h1>Блокнот&nbsp;34</h1>
+                    <h2>рекламно-полиграфическая компания</h2>
 				</div>
 			</div>
             <div class="cntr">
