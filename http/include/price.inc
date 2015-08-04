@@ -1,5 +1,6 @@
 <div class="container">
-
+    <h4 class="text-center">Расчёт продукции производится по факту размера (формата) продукции и её тиража</h4>
+<?php /*
     <a href="img/price/price1.jpg" data-lightbox="price"><img src="img/price/price1-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price2.jpg" data-lightbox="price"><img src="img/price/price2-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price3.jpg" data-lightbox="price"><img src="img/price/price3-mini.jpg" alt="Прайслист"></a>
@@ -11,4 +12,5 @@
     <a href="img/price/price9.jpg" data-lightbox="price"><img src="img/price/price9-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price10.jpg" data-lightbox="price"><img src="img/price/price10-mini.jpg" alt="Прайслист"></a>
     <a href="img/price/price11.jpg" data-lightbox="price"><img src="img/price/price11-mini.jpg" alt="Прайслист"></a>
+*/ ?>
 </div>
